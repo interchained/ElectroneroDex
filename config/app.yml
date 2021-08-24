@@ -1,14 +1,14 @@
 ---
 app:
-  name: OpenDAX
-  domain: app.local
+  name: ElectroneroDEX
+  domain: electronero.org
   subdomain: www
   show_landing: true
 render_protect: false
 csrfEnabled: false
 ssl:
   enabled: false
-  email: support@example.com
+  email: support@electronero.org
 updateVersions: false
 images:
   peatio: quay.io/openware/peatio:2.6.48
@@ -21,7 +21,7 @@ finex:
   image: quay.io/openware/finex:2.6.39
   license_key: changeme
 vendor:
-  frontend: git@github.com:openware/baseapp.git
+  frontend: git@github.com:interchained/baseapp.git
 kyc:
   provider: local
   authorization_token: changeme
