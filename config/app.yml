@@ -35,6 +35,9 @@ vault:
   peatio_matching_token: changeme
   barong_token: changeme
   finex_engine_token: changeme
+rabbitmq:
+  username: "guest"
+  password: "changeme"
 database:
   host: dex
   adapter: mysql
