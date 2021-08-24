@@ -39,7 +39,7 @@ rabbitmq:
   username: "guest"
   password: "changeme"
 database:
-  host: dex
+  host: 127.0.0.1
   adapter: mysql
   port: 3306
   user: testuser
