@@ -42,6 +42,9 @@ services:
     restart: always
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: <%= @config['rabbitmq']['username'] %>
+      RABBITMQ_DEFAULT_PASS: <%= @config['rabbitmq']['password'] %>
 
   vault:
     image: vault:1.3.0
