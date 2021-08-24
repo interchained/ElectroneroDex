@@ -24,7 +24,7 @@ vendor:
   frontend: git@github.com:interchained/baseapp.git
 kyc:
   provider: local
-  authorization_token: changeme
+  authorization_token: e74e4a7a0495184bea289fd4a8466cc47045
   sandbox_mode: true
   api_endpoint: https://api.kycaid.com/
 vault:
@@ -39,7 +39,7 @@ database:
   host: db
   adapter: mysql
   port: 3306
-  user: root
+  user: testuser
   password: changeme
 storage:
   provider: Google
