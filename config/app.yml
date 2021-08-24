@@ -1,8 +1,8 @@
 ---
 app:
   name: ElectroneroDEX
-  domain: electronero.org
-  subdomain: www
+  domain: crystaleum.org
+  subdomain: dex
   show_landing: true
 render_protect: false
 csrfEnabled: false
