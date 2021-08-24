@@ -3,7 +3,7 @@ images:
   arke: quay.io/openware/arke:2.6.0-bccb72c
   superset: amancevice/superset:0.28.1
 superset:
-  email: superset-admin@openware.com
+  email: support@electronero.org
   username: admin
   password: changeme
 arke:
@@ -12,8 +12,8 @@ arke:
   - id: 1
     driver: bitfaker
     debug: false
-    host: "http://www.app.local"
-    ws: "ws://www.app.local"
+    host: "http://www.electronero.org"
+    ws: "ws://www.electronero.org"
     key: ""
     secret: ""
     delay: 1
@@ -56,7 +56,7 @@ arke:
         id: BTCUSD
         base: BTC
         quote: USD
-        base_precision: 8
+        base_precision: 10
         quote_precision: 8
         min_order_back_amount: 1.5
 
@@ -87,7 +87,7 @@ arke:
       target:
         driver: rubykube
         market: 'FTHUSD'
-        host: "http://www.app.local"
+        host: "http://www.electronero.org"
         key: ""
         secret: ""
         rate_limit: 1
