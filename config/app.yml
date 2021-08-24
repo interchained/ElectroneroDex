@@ -24,7 +24,7 @@ vendor:
   frontend: git@github.com:interchained/baseapp.git
 kyc:
   provider: local
-  authorization_token: e74e4a7a0495184bea289fd4a8466cc47045
+  authorization_token: 65c83a0c0939184ca328cc94ef68c83c2678
   sandbox_mode: true
   api_endpoint: https://api.kycaid.com/
 vault:
@@ -39,7 +39,7 @@ rabbitmq:
   username: "guest"
   password: "changeme"
 database:
-  host: 127.0.0.1
+  host: "127.0.0.1"
   adapter: mysql
   port: 3306
   user: testuser
